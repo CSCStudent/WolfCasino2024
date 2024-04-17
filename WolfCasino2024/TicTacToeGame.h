@@ -17,8 +17,6 @@ namespace CSC2034
         void start();
 
     private:
-        void run();
-
         //This stores the board state
         char board[3][3];
     };
