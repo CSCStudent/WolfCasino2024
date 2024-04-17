@@ -1,13 +1,17 @@
 #include <iostream>
 #include <string>
 #include "Casino.h"
+#include "TicTacToeGame.h"
 
 // class Casino implemetation file
 namespace CSC2034 {
 	void Casino::play(string gameName) {
 		Casino* game = NULL;   //pointer should refer to object of subclass
 
-		throw NoGame(gameName + " game not found!!");
+		if (gameName == "TicTacToe")
+			game = TicTacToeGame::makeGame(); // TicTacToeGame::makeGame();
+		else
+			throw NoGame(gameName + " game not found!!");
 
 		game->start();  // using late binding, invoke game start
 		delete game;	// cleaning up heap
