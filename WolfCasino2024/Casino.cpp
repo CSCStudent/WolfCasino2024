@@ -4,12 +4,12 @@
 #include "TicTacToeGame.h"
 #include "S02469787.h"
 
-// class Casino implemetation file
+// class Casino implemetation file  XXX
 namespace CSC2034 {
 	void Casino::play(string gameName) {
 		Casino* game = NULL;   //pointer should refer to object of subclass
 
-		if (gameName == "TicTacToe")
+		if (gameName == "TicTacToeGame")
 			game = TicTacToeGame::makeGame(); // TicTacToeGame::makeGame();
 		if (gameName == "TicTacToeAGP")
 			game = S02469787::makeGame();
