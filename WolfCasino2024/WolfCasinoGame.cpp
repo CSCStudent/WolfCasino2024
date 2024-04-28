@@ -28,7 +28,7 @@ int main(int argc, char* argv[]) {
 			Casino::play(argv[1]); //static function call
 		}
 		catch (NoGame e) {
-			cout << e.getMsg();
+			cout << e;
 		}
 	}
 	else

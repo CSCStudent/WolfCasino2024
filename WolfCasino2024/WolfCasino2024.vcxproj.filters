@@ -24,12 +24,18 @@
     <ClCompile Include="TicTacToeGame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="S02469787.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Casino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="TicTacToeGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="S02469787.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

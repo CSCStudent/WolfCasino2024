@@ -21,6 +21,7 @@ namespace CSC2034 {
 			msg = s;
 		}
 		string getMsg() { return msg; }
+		friend ostream& operator << (ostream& out, NoGame& e);
 	private:
 		string msg;
 	};
