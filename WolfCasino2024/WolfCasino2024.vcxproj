@@ -128,12 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Casino.cpp" />
+    <ClCompile Include="S02849570.cpp" />
     <ClCompile Include="TicTacToeGame.cpp" />
     <ClCompile Include="S02469787.cpp" />
     <ClCompile Include="WolfCasinoGame.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Casino.h" />
+    <ClInclude Include="S02849570.h" />
     <ClInclude Include="TicTacToeGame.h" />
     <ClInclude Include="S02469787.h" />
   </ItemGroup>
