@@ -6,6 +6,7 @@
 #include "S02849570.h"	// for Hangman
 #include "S02921882B.h"  // for Yahtzee
 #include "S02902743.h"	// for BlackJack
+#include "S02344566.h"	// for RockPaperScissorsGame
 
 // class Casino implemetation file  XXX
 namespace CSC2034 {
@@ -22,6 +23,8 @@ namespace CSC2034 {
 			game = S02921882::Yahtzee::makeGame();
 		else if (gameName == "BlackJack")
 			game = S02902743::BlackjackGame::makeGame();
+		else if (gameName == "RockPaperScissors")
+			game = S02344566::RockPaperScissorsGame::makeGame();
 		else
 			throw NoGame(gameName + " game not found!!");
 
@@ -46,6 +49,7 @@ namespace CSC2034 {
 		out << "Hangman" << endl;
 		out << "Yahtzee" << endl;
 		out << "BlackJack" << endl;
+		out << "RockPaperSciessors" << endl;
 		return out;
 	}
 }
