@@ -139,6 +139,9 @@
     <ClInclude Include="TicTacToeGame.h" />
     <ClInclude Include="S02469787.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="words_alpha.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

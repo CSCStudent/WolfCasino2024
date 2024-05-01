@@ -27,6 +27,9 @@
     <ClCompile Include="S02469787.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="S02849570.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Casino.h">
@@ -38,5 +41,11 @@
     <ClInclude Include="S02469787.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="S02849570.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="words_alpha.txt" />
   </ItemGroup>
 </Project>
