@@ -127,6 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="S02424523A.cpp" />
+    <ClCompile Include="S02424523C.cpp" />
+    <ClCompile Include="S02424523B.cpp" />
+    <ClCompile Include="S02424523D.cpp" />
     <ClCompile Include="S02344566.cpp" />
     <ClCompile Include="S02902743.cpp" />
     <ClCompile Include="Casino.cpp" />
@@ -138,6 +142,10 @@
     <ClCompile Include="S02921882B.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="S02424523A.h" />
+    <ClInclude Include="S02424523C.h" />
+    <ClInclude Include="S02424523B.h" />
+    <ClInclude Include="S02424523D.h" />
     <ClInclude Include="S02344566.h" />
     <ClInclude Include="S02902743.h" />
     <ClInclude Include="Casino.h" />
