@@ -5,15 +5,15 @@
 #include "Casino.h"
 
 //defined namespace for project
-namespace CSC2034
+namespace S02849570
 {
-    class S02849570 : public Casino
+    class Hangman : public CSC2034::Casino
     {
     public:
         //Constructor
-        S02849570();
+        Hangman();
 
-        static S02849570* makeGame();
+        static Hangman* makeGame();
 
         //This plays the game
         void start();

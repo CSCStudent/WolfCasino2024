@@ -30,6 +30,12 @@
     <ClCompile Include="S02849570.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="S02921882A.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="S02921882B.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Casino.h">
@@ -44,8 +50,15 @@
     <ClInclude Include="S02849570.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="S02921882A.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="S02921882B.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="words_alpha.txt" />
+    <Text Include="Yahtzee_Instruct.txt" />
   </ItemGroup>
 </Project>

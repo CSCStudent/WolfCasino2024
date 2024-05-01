@@ -5,18 +5,18 @@
 #include "S02849570.h"
 
 //defined namespace for project
-namespace CSC2034
+namespace S02849570
 {
     //Constructor
-    S02849570::S02849570()
-    = default;
+    S02849570::Hangman::Hangman()
+        = default;
 
-    S02849570* S02849570::makeGame() {
-        return new S02849570;
+    Hangman* S02849570::Hangman::makeGame() {
+        return new Hangman;
     }
 
     //The game!
-    void S02849570::start() {
+    void S02849570::Hangman::start() {
         string response;
         do {
             word = pickWord();
@@ -68,7 +68,7 @@ namespace CSC2034
         }
     }
 
-    string S02849570::pickWord() {
+    string S02849570::Hangman::pickWord() {
 
         ifstream file("./words_alpha.txt", ios::binary | ios::ate);
         if (!file.is_open()) {
@@ -109,11 +109,11 @@ namespace CSC2034
         } while(true);
     }
 
-    bool S02849570::isCharInWord(char c) {
+    bool S02849570::Hangman::isCharInWord(char c) {
         return word.find(c) != string::npos;
     }
 
-    string S02849570::getWordWithGuesses() {
+    string S02849570::Hangman::getWordWithGuesses() {
         string s;
         for(int i = 0; i < word.length(); i++) {
             if(std::find(guesses.begin(), guesses.end(), word.at(i)) != guesses.end()){
@@ -125,7 +125,7 @@ namespace CSC2034
         return s;
     }
 
-    void S02849570::printHangedMan(int x){
+    void S02849570::Hangman::printHangedMan(int x){
         /* Thanks @vmoudy for the ascii art */
         switch(x){
             case 0: cout << "_________" << endl

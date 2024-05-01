@@ -1,0 +1,37 @@
+Yahtzee
+
+The goal is to get the highest total score in 13 turns.
+Each turn begins with rolling the dice. You can reroll any/all of the dice for a total of 3 rolls per turn.
+After you have finished rolling, you must score one of the 13 categories on the scoresheet with either a zero or a score value.
+Once a category has been scored (zero or otherwise) it cannot be scored again.
+Scoring is dependent on the combination of the final dice values.
+The scoring is as follows:
+
+Aces - Sum of Aces
+Twos - Sum of Twos
+Threes - Sum of Threes
+Fours - Sum of Fours
+Fives - Sum of Fives
+Sixes - Sum of Sixes
+3 of a Kind - Sum of all dice
+4 of a Kind - Sum of all dice
+Full House (3 of a kind + 2 of a kind) - 25 points
+Sm. Straight (4 dice in sequence) - 30 points
+Lg. Straight (5 dice in sequence) - 40 points
+Chance (no requirements) - Sum of all dice
+YAHTZEE (5 of a Kind) - 50 points
+
+If YAHTZEE has already been scored 50 points, then all subsequent yahtzees gain a 100 point bonus and another category must be scored using the Joker Rules.
+If YAHTZEE has been scored zero, then all subsequent yahtzees score no bonus and a category must be scored using the Joker Rules.
+
+Joker Rules:
+Score the appropriate Upper Section category with the sum of the dice. (Ex. a yahtzee of 5's would score 25 in 'Fives').
+If the Upper Section category has been scored, then score any Lower Section category with the standard scoring calculations.
+If both the appropriate Upper Section and all Lower Section categories have been scored, then choose an available Upper Section category to score zero in.
+
+Upper Section Bonus:
+If the Upper section total is 63 or greater, then a bonus of 35 points is added to the Grand Total.
+
+The game ends once all 13 categories have been scored.
+
+Good Luck!

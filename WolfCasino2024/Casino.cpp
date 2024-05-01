@@ -4,6 +4,7 @@
 #include "TicTacToeGame.h"
 #include "S02469787.h"
 #include "S02849570.h"
+#include "S02921882B.h"
 
 // class Casino implemetation file  XXX
 namespace CSC2034 {
@@ -15,7 +16,9 @@ namespace CSC2034 {
 		if (gameName == "TicTacToeAGP")
 			game = S02469787::makeGame();
 		if (gameName == "Hangman")
-			game = S02849570::makeGame();
+			game = S02849570::Hangman::makeGame();
+		if (gameName == "Yahtzee")
+			game = S02921882::Yahtzee::makeGame();
 		else
 			throw NoGame(gameName + " game not found!!");
 
@@ -38,6 +41,7 @@ namespace CSC2034 {
 		out << "Here are your choices:" << endl;
 		out << "TitactoeAGP" << endl;
 		out << "Hangman" << endl;
+		out << "Yahtzee" << endl;
 		return out;
 	}
 }
