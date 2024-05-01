@@ -45,6 +45,7 @@ namespace CSC2034 {
 		out << "TitacToeAGP" << endl;
 		out << "Hangman" << endl;
 		out << "Yahtzee" << endl;
+		out << "BlackJact" << endl;
 		return out;
 	}
 }
