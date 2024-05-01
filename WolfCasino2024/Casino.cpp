@@ -13,11 +13,11 @@ namespace CSC2034 {
 
 		if (gameName == "TicTacToeGame")
 			game = TicTacToeGame::makeGame(); // TicTacToeGame::makeGame();
-		if (gameName == "TicTacToeAGP")
-			game = S02469787::makeGame();
-		if (gameName == "Hangman")
+		else if (gameName == "TicTacToeAGP")
+			game = S02469787::TicTacToe::makeGame();
+		else if (gameName == "Hangman")
 			game = S02849570::Hangman::makeGame();
-		if (gameName == "Yahtzee")
+		else if (gameName == "Yahtzee")
 			game = S02921882::Yahtzee::makeGame();
 		else
 			throw NoGame(gameName + " game not found!!");
@@ -39,7 +39,7 @@ namespace CSC2034 {
 		out << endl;
 		out << e.getMsg() << endl;
 		out << "Here are your choices:" << endl;
-		out << "TitactoeAGP" << endl;
+		out << "TitacToeAGP" << endl;
 		out << "Hangman" << endl;
 		out << "Yahtzee" << endl;
 		return out;

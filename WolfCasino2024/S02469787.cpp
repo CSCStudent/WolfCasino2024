@@ -4,10 +4,9 @@
 #include <iomanip>
 
 //defined namespace for project
-namespace CSC2034
-{
+namespace S02469787 {
     //Constructor
-    S02469787::S02469787()
+    TicTacToe::TicTacToe()
     {
         for ( int i = 0; i < 3; ++i )
         {
@@ -18,17 +17,17 @@ namespace CSC2034
         }
     }
 
-    S02469787* S02469787::makeGame() {
-        return new S02469787;
+    TicTacToe* TicTacToe::makeGame() {
+        return new TicTacToe;
     }
 
     //The game!
-    void S02469787::start() {
-        S02469787 game;
+    void TicTacToe::start() {
+        TicTacToe game;
         int playerNum = -1;
-        cout << "Game has started" << endl;
+        std::cout << "Game has started" << std::endl;
         game.print( );
-        cout << "Player 1" << endl << endl;
+        std::cout << "Player 1" << std::endl << std::endl;
         while ( !game.checkWinner( ))
         {
             game.playerMove( playerNum );
@@ -38,7 +37,7 @@ namespace CSC2034
 
     }
 
-    void S02469787::print( )
+    void TicTacToe::print( )
     {
         int num = 0;
         // Print column labels
@@ -58,7 +57,7 @@ namespace CSC2034
     }
 
 
-    bool S02469787::playerMove(int & playerNum )
+    bool TicTacToe::playerMove(int & playerNum )
     {
         if ( playerNum == -1 )
         {
@@ -131,7 +130,7 @@ namespace CSC2034
         return false;
     }
 
-    bool S02469787::checkWinner( )
+    bool TicTacToe::checkWinner( )
     {
         int xCount = 0;
         int oCount = 0;
