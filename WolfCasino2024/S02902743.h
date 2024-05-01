@@ -11,7 +11,7 @@
 #include "Casino.h"
 
 // Card class definition
-namespace CSC2034
+namespace S02902743
 {
     class Card {
     public:
@@ -49,7 +49,7 @@ namespace CSC2034
     };
 
     // BlackjackGame class definition
-    class BlackjackGame : public Casino{
+    class BlackjackGame : public CSC2034::Casino{
     public:
         Deck deck ;
         Hand playerHand;

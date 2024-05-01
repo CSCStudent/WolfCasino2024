@@ -36,7 +36,7 @@
     <ClCompile Include="S02921882B.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BlackjackGame.cpp">
+    <ClCompile Include="S02902743.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -59,7 +59,7 @@
     <ClInclude Include="S02921882B.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BlackjackGame.h">
+    <ClInclude Include="S02902743.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,7 +1,7 @@
-#include "BlackjackGame.h"
+#include "S02902743.h"
 
 // Implement the functions for each class
-namespace CSC2034 {
+namespace S02902743 {
 
     // Card class implementations
     Card::Card(const std::string& rank, const std::string& suit) : rank(rank), suit(suit) {}

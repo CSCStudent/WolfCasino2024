@@ -2,9 +2,10 @@
 #include <string>
 #include "Casino.h"
 #include "TicTacToeGame.h"
-#include "S02469787.h"
-#include "S02849570.h"
-#include "S02921882B.h"
+#include "S02469787.h"	// for TicTacToeAGP
+#include "S02849570.h"	// for Hangman
+#include "S02921882B.h"  // for Yahtzee
+#include "S02902743.h"	// for BlackJack
 
 // class Casino implemetation file  XXX
 namespace CSC2034 {
@@ -19,6 +20,8 @@ namespace CSC2034 {
 			game = S02849570::Hangman::makeGame();
 		else if (gameName == "Yahtzee")
 			game = S02921882::Yahtzee::makeGame();
+		else if (gameName == "BlackJack")
+			game = S02902743::BlackjackGame::makeGame();
 		else
 			throw NoGame(gameName + " game not found!!");
 
