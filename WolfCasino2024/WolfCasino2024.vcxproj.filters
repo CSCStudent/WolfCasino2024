@@ -57,6 +57,9 @@
     <ClCompile Include="S02591408.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="S02239776.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Casino.h">
@@ -96,6 +99,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="S02591408.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="S02239776.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

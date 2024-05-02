@@ -9,6 +9,7 @@
 #include "S02344566.h"		// for RockPaperScissorsGame
 #include "S02424523A.h"		// for Baccarat
 #include "S02591408.h"		//for Red_vs_Blue_TicTacToe
+#include "S02239776.h"		// for TicTacToeGameKMF
 
 // class Casino implemetation file  XXX
 namespace CSC2034 {
@@ -31,6 +32,8 @@ namespace CSC2034 {
 			game = S02424523::Baccarat::makeGame();
 		else if (gameName == "Red_vs_Blue_TicTacToe")
 			game = S02591408::tttGameLogic::makeGame();
+		else if (gameName == "TicTacToeGameKMF")
+			game = S02239776::TicTacToeGameKMF::makeGame();
 		else
 			throw NoGame(gameName + " game not found!!");
 
@@ -58,6 +61,7 @@ namespace CSC2034 {
 		out << "RockPaperSciessors" << endl;
 		out << "Baccarat" << endl;
 		out << "Red_vs_Blue_TicTacToe" << endl;
+		out << "TicTacToeGameKMF" << endl;
 		return out;
 	}
 }

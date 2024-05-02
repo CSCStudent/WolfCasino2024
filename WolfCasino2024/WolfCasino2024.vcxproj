@@ -139,6 +139,7 @@
     <ClCompile Include="TicTacToeGame.cpp" />
     <ClCompile Include="S02469787.cpp" />
     <ClCompile Include="S02591408.cpp" />
+    <ClCompile Include="S02239776.cpp" />
     <ClCompile Include="WolfCasinoGame.cpp" />
     <ClCompile Include="S02921882B.cpp" />
   </ItemGroup>
@@ -156,6 +157,7 @@
     <ClInclude Include="S02469787.h" />
     <ClInclude Include="S02921882B.h" />
     <ClInclude Include="S02591408.h" />
+    <ClInclude Include="S02239776.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="words_alpha.txt" />
