@@ -8,9 +8,10 @@
 #include "S02902743.h"		// for BlackJack
 #include "S02344566.h"		// for RockPaperScissorsGame
 #include "S02424523A.h"		// for Baccarat
-#include "S02591408.h"		//for Red_vs_Blue_TicTacToe
+#include "S02591408.h"		// for Red_vs_Blue_TicTacToe
 #include "S02239776.h"		// for TicTacToeGameKMF
 #include "S01505380A.h"		// for WarCardGame
+#include "S02392781.h"		// for Twenty48
 
 // class Casino implemetation file  XXX
 namespace CSC2034 {
@@ -37,6 +38,8 @@ namespace CSC2034 {
 			game = S02239776::TicTacToeGameKMF::makeGame();
 		else if (gameName == "WarCardGame")
 			game = S01505380::WarCardGame::makeGame();
+		else if (gameName == "Twenty48")
+			game = S02392781::Twenty48::makeGame();
 		else
 			throw NoGame(gameName + " game not found!!");
 
@@ -66,6 +69,7 @@ namespace CSC2034 {
 		out << "Red_vs_Blue_TicTacToe" << endl;
 		out << "TicTacToeGameKMF" << endl;
 		out << "WarCardGame" << endl;
+		out << "Twenty48" << endl;
 		return out;
 	}
 }
