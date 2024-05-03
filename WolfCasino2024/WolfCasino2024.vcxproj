@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="S01505380C.cpp" />
+    <ClCompile Include="S01505380B.cpp" />
     <ClCompile Include="S02424523A.cpp" />
     <ClCompile Include="S02424523C.cpp" />
     <ClCompile Include="S02424523B.cpp" />
@@ -140,10 +142,13 @@
     <ClCompile Include="S02469787.cpp" />
     <ClCompile Include="S02591408.cpp" />
     <ClCompile Include="S02239776.cpp" />
+    <ClCompile Include="S01505380A.cpp" />
     <ClCompile Include="WolfCasinoGame.cpp" />
     <ClCompile Include="S02921882B.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="S01505380C.h" />
+    <ClInclude Include="S01505380B.h" />
     <ClInclude Include="S02424523A.h" />
     <ClInclude Include="S02424523C.h" />
     <ClInclude Include="S02424523B.h" />
@@ -158,6 +163,7 @@
     <ClInclude Include="S02921882B.h" />
     <ClInclude Include="S02591408.h" />
     <ClInclude Include="S02239776.h" />
+    <ClInclude Include="S01505380A.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="words_alpha.txt" />
