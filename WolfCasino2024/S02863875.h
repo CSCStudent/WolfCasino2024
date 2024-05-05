@@ -1,4 +1,3 @@
-#pragma once
 #ifndef ROULETTE_H
 #define ROULETTE_H
 
