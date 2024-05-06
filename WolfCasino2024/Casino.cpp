@@ -13,6 +13,7 @@
 #include "S01505380A.h"		// for WarCardGame
 #include "S02392781.h"		// for Twenty48
 #include "S02863875.h"		// for Roulette
+#include "S02298183.h"		// for SquidGame
 
 // class Casino implemetation file  XXX
 namespace CSC2034 {
@@ -43,6 +44,8 @@ namespace CSC2034 {
 			game = S02392781::Twenty48::makeGame();
 		else if (gameName == "Roulette")
 			game = S02863875::Roulette::makeGame();
+		else if (gameName == "SquidGame")
+			game = S02298183::SquidGame::makeGame();
 		else
 			throw NoGame(gameName + " game not found!!");
 
@@ -73,6 +76,7 @@ namespace CSC2034 {
 		out << "TicTacToeGameKMF" << endl;
 		out << "WarCardGame" << endl;
 		out << "Twenty48" << endl;
+		out << "SquidGame" << endl;
 		return out;
 	}
 }
