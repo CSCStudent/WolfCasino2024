@@ -1,6 +1,7 @@
 #include <iostream>
 #include <ctime>
 #include "TicTacToeGame.h"
+#include <stdio.h>
 
 //defined namespace for project
 namespace CSC2034
