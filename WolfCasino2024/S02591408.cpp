@@ -25,6 +25,7 @@
 #include <cstdlib>     // Needed for the <cstdlib> header for the rand() function
 #include <ctime>      // Needed for the <ctime> header for seeding the random number generator
 #include <fstream>   // Needed for file input/output
+#include <limits>
 
 using namespace std; // Using the standard namespace
 
