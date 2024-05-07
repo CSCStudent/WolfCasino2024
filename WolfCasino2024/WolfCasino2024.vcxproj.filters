@@ -78,6 +78,18 @@
     <ClCompile Include="S02298183.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="S02977128A.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="S02977128C.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="S02977128D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="S02977128B.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Casino.h">
@@ -138,6 +150,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="S02298183.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="S02977128A.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="S02977128C.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="S02977128D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="S02977128B.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -127,6 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="S02977128C.cpp" />
+    <ClCompile Include="S02977128D.cpp" />
+    <ClCompile Include="S02977128A.cpp" />
+    <ClCompile Include="S02977128B.cpp" />
     <ClCompile Include="S02298183.cpp" />
     <ClCompile Include="S02863875.cpp" />
     <ClCompile Include="S01505380C.cpp" />
@@ -150,6 +154,10 @@
     <ClCompile Include="S02921882B.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="S02977128C.h" />
+    <ClInclude Include="S02977128D.h" />
+    <ClInclude Include="S02977128A.h" />
+    <ClInclude Include="S02977128B.h" />
     <ClInclude Include="S02298183.h" />
     <ClInclude Include="S02863875.h" />
     <ClInclude Include="S01505380C.h" />
