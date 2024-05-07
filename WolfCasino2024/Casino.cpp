@@ -16,6 +16,7 @@
 #include "S02298183.h"		// for SquidGame
 #include "S02977128A.h"		// for GoFish
 #include "S02312175C.h"		// for TexasHoldem
+#include "S02710191A.h"		// for LiarsDice
 
 // class Casino implemetation file  XXX
 namespace CSC2034 {
@@ -52,6 +53,8 @@ namespace CSC2034 {
 			game = S02977128::GoFish::makeGame();
 		else if (gameName == "TexasHoldem")
 			game = S02312175::Game::makeGame();
+		else if (gameName == "LiarsDice")
+			game = S02710191::LiarsDice::makeGame();
 		else
 			throw NoGame(gameName + " game not found!!");
 
@@ -85,6 +88,7 @@ namespace CSC2034 {
 		out << "SquidGame" << endl;
 		out << "GoFish" << endl;
 		out << "TexasHoldem" << endl;
+		out << "LiarsDice" << endl;
 		return out;
 	}
 }
