@@ -23,7 +23,7 @@ int main(int argc, char* argv[]) {
 	if (argc > 1) {
 		cout << "Welcome to the Wolf Casino.  You have chosen to play: " << argv[1] << std::endl;
 		cout << "Please wait...getting game ready." << endl;
-		Sleep(3000);
+		//Sleep(3000);
 		try {
 			Casino::play(argv[1]); //static function call
 		}

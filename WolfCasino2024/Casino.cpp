@@ -14,6 +14,7 @@
 #include "S02392781.h"		// for Twenty48
 #include "S02863875.h"		// for Roulette
 #include "S02298183.h"		// for SquidGame
+#include "S03033007.h"      // for Snake
 
 // class Casino implemetation file  XXX
 namespace CSC2034 {
@@ -46,6 +47,8 @@ namespace CSC2034 {
 			game = S02863875::Roulette::makeGame();
 		else if (gameName == "SquidGame")
 			game = S02298183::SquidGame::makeGame();
+		else if (gameName == "Snake")
+            game = S03033007::Snake::makeGame();
 		else
 			throw NoGame(gameName + " game not found!!");
 
