@@ -4,6 +4,7 @@
 #include <ctime>
 #include <cstdlib>
 #include <algorithm>
+#include <limits>
 #include "S02863875.h"
 
 // Note: please read first :: proper formate is a # don't include the 0 in front for single digits. Then color or high/low, EX red green black high low, then the amount you wish to bet 0 - 100

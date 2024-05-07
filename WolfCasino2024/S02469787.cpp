@@ -2,6 +2,7 @@
 #include <ctime>
 #include "S02469787.h"
 #include <iomanip>
+#include <limits>
 
 //defined namespace for project
 namespace S02469787 {
